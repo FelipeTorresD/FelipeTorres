@@ -37,6 +37,12 @@ p {
 	margin-bottom: 35px;
 }
 
+.subtitle02 {
+	color: #FFFEFB;
+	font-size: 2,5rem;
+	margin-bottom: 35px;
+}
+
 .hero {
 	height: 100vh;
 	background-image: var(--background), url("../images/city.png");
@@ -128,8 +134,10 @@ p {
 
 .hero__subtitle {
 	font-size: 2rem;
-	font-weight: 300;
-	margin: 60px;
+	font-weight: 400;
+	margin-top: 20px;
+	margin-bottom: 30px;
+	margin-right: 120px;
 }
 
 .hero__cta {
@@ -171,9 +179,11 @@ p {
 
 .sobremy {
 	width: 90%;
-	margin: 0 auto;
+	margin-top: 20px;
+	margin-bottom: 20px;
+	margin-auto: 20px;
 	font-weight: 400;
-	font-size: 18px;
+	font-size: 21px;
 }
 
 .presentation__cta {
@@ -191,7 +201,7 @@ p {
 }
 
 .subtitle3 {
-	color: #2B4188;
+	color: #FFFEFB;
 }
 
 .about {
@@ -218,7 +228,8 @@ p {
 .about__paragraf {
 	margin-top: 20px;
 	line-height: 1.5;
-	font-weight: 400;
+	font-weight: 460;
+	font-size: 20px;
 }
 
 /* PROJECTS */
@@ -230,8 +241,8 @@ p {
 .project__grid {
 	display: grid;
 	height: 550px;
-	grid-template-areas: "img1 img1 img2 img3"
-	"img1 img1 img4 img5";
+	grid-template-areas: "img1  img2 img3"
+	"img1  img2 img3";
 	gap: 10px;
 }
 
@@ -261,13 +272,6 @@ p {
 	grid-area: img3;
 }
 
-.project__item:nth-of-type(4) {
-	grid-area: img4;
-} 
-
-.project__item:nth-of-type(5) {
-	grid-area: img5;
-} 
 
 .project__hover {
 	position: absolute;
@@ -379,7 +383,7 @@ p {
 }
 
 .ilustracion {
-	background: #FFFEFB;
+	background: #FCBA0B;
 }
 
 .card-text {
@@ -387,7 +391,7 @@ p {
 }
 
 .campañas {
-	background: #69BDE7;
+	background: #FFFEFB;
 }
 
 .piezas {
